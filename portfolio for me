@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata - Manan Hooda</title>
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            text-decoration: underline;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        ul, ol {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .inline-text {
+            color: #0073e6;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Biodata - Manan Hooda</h1>
+
+    <h2>Personal Details</h2>
+    <p><strong>Name:</strong> <span class="inline-text">Manan Hooda</span></p>
+    <p><strong>Degree:</strong> BTech in Information Technology</p>
+    <p><strong>Institution:</strong> Delhi Technological University</p>
+
+    <h2>Education</h2>
+    <table>
+        <tr>
+            <th>Qualification</th>
+            <th>Institution</th>
+            <th>Year of Passing</th>
+            <th>Percentage/CGPA</th>
+        </tr>
+        <tr>
+            <td>BTech in Information Technology</td>
+            <td>Delhi Technological University</td>
+            <td>2024</td>
+            <td>8.5 CGPA</td>
+        </tr>
+        <tr>
+            <td>Class 12th</td>
+            <td>XYZ Senior Secondary School</td>
+            <td>2023</td>
+            <td>92%</td>
+        </tr>
+        <tr>
+            <td>Class 10th</td>
+            <td>ABC High School</td>
+            <td>2020</td>
+            <td>96%</td>
+        </tr>
+    </table>
+
+    <h2>Skills</h2>
+    <ul>
+        <li>Programming Languages: HTML, CSS, JavaScript, Python</li>
+        <li>Web Development: Frontend Development, Responsive Design</li>
+        <li>Software: Adobe XD, Figma, Visual Studio Code</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <ol>
+        <li><strong>Personal Portfolio Website</strong> - A website showcasing personal projects and skills.</li>
+        <li><strong>Responsive Web Design Project</strong> - Designed a fully responsive e-commerce landing page.</li>
+    </ol>
+
+    <h2>Hobbies</h2>
+    <p>I enjoy <em>photography</em>, <em>travelling</em>, and <em>reading tech blogs</em>.</p>
+
+    <h2>Contact Information</h2>
+    <table>
+        <tr>
+            <th>Address</th>
+            <td>123, Delhi Road, Delhi</td>
+        </tr>
+        <tr>
+            <th>Phone</th>
+            <td>+91-XXXXXXXXXX</td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td>manan.hooda@gmail.com</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
